@@ -8,7 +8,7 @@ if run == "start":
     
     while mins != 20:
         
-        # Sleep for a minute
+        
         time.sleep(5)
         to = ''
         gmail_user=""
@@ -22,7 +22,7 @@ if run == "start":
         smtpserver.sendmail(gmail_user, to, msg)
         print('done')
         smtpserver.close()
-        # Increment the minute total
+        
         mins += 1
 
 
